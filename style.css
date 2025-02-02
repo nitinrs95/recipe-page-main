@@ -212,3 +212,10 @@ footer {
     border-radius: 12px;
   }
 }
+
+/* Desktop Layout:1440 px */
+@media (min-width: 90em) {
+  .recipe {
+    max-width: 73.6rem;
+  }
+}
