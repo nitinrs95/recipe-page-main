@@ -173,7 +173,6 @@ tr:last-child td {
   font-weight: 700;
   color: var(--color-text-secondary);
   padding-left: 1.6rem;
-  padding-right: 3.2rem;
 }
 
 footer {
@@ -186,4 +185,30 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Tablet Layout:768 px  */
+
+@media (min-width: 48em) {
+  .recipe {
+    max-width: 61.6rem;
+    margin: 12.8rem auto;
+    border-radius: 24px;
+    padding: 4rem;
+    /* overflow: hidden; */
+  }
+
+  .recipe__body {
+    padding: 0;
+  }
+
+  .recipe__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .recipe__image {
+    border-radius: 12px;
+  }
 }
